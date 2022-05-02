@@ -6,7 +6,8 @@
   "dependencies": {
     "prettier": "^2.6.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -36,8 +37,7 @@
     "url": "https://github.com/lokicodedaily/Frontend-Masters-React/issues"
   },
   "homepage": "https://github.com/lokicodedaily/Frontend-Masters-React#readme",
-  "browsersList": [
-    "last 10 Chrome versions",
-    "last 10 Firefox versions"
+  "browserslist": [
+    "last 2 Chrome versions"
   ]
 }
