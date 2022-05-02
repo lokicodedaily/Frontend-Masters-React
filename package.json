@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "parcel": "^1.12.3"
+  },
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"src/**/*.{js, jsx}\""
+    "format": "prettier --write \"src/**/*.{js, jsx}\"",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet"
   },
   "repository": {
     "type": "git",
@@ -21,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/lokicodedaily/Frontend-Masters-React/issues"
   },
-  "homepage": "https://github.com/lokicodedaily/Frontend-Masters-React#readme"
+  "homepage": "https://github.com/lokicodedaily/Frontend-Masters-React#readme",
+  "browsersList": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions"
+  ]
 }
